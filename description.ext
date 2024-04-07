@@ -3,7 +3,7 @@ onLoadIntro = "Defend yourself";
 onLoadName = "dynamicBulwarks";
 briefingName = "dynamicBulwarks";
 overviewText = "Survive by scavenging equipment, in a randomly selected city, against ever increasing waves of hostiles.";
-author = "Hilltop & omNomios";
+author = "Hilltop & omNomios & Frank";
 overviewPicture = "preview.paa";
 
 loadScreen = "preview.paa";
@@ -412,8 +412,8 @@ class Params
 	class START_KILLPOINTS
 	{
 		title = "Kill points players start with";
-		values[] = {0, 250, 500, 1000, 2500, 5000, 10000};
-		texts[] = {"0", "250", "500", "1000", "2500", "5000", "10000"};
+		values[] = {0, 250, 500, 1000, 2500, 5000, 10000,100000};
+		texts[] = {"0", "250", "500", "1000", "2500", "5000", "10000","100000"};
 		default = 0;
 	};
 
@@ -495,8 +495,8 @@ class Params
 	class RESPAWN_TICKETS
 	{
 		title = "Tickets";
-		values[] = {0, 5, 10, 15, 20};
-		texts[] = {"0", "5", "10", "15", "20"};
+		values[] = {0, 5, 10, 15, 100};
+		texts[] = {"0", "5", "10", "15", "100"};
 		default = 0;
 	};
 
